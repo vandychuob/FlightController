@@ -1,0 +1,9 @@
+../Core/Src/main.c:214:6:gps_setup	72	static
+../Core/Src/main.c:230:6:gps_read	8	static
+../Core/Src/main.c:292:6:gyro_setup	24	static
+../Core/Src/main.c:318:6:gyro_get_data	40	static
+../Core/Src/main.c:340:6:gyro_cal	16	static
+../Core/Src/main.c:375:5:main	24	static
+../Core/Src/main.c:645:6:SystemClock_Config	88	static
+../Core/Src/main.c:689:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/main.c:714:6:Error_Handler	4	static,ignoring_inline_asm

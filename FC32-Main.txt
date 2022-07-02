@@ -1,0 +1,120 @@
+Configuration	FC32-Main
+STM32CubeMX 	6.5.0
+Date	06/26/2022
+MCU	STM32F405RGTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM5	Internal Clock	TIM5_VS_ClockSourceINT	VP_TIM5_VS_ClockSourceINT
+TIM5	PWM Generation CH1	TIM5_CH1	PA0-WKUP
+TIM5	PWM Generation CH2	TIM5_CH2	PA1
+TIM5	PWM Generation CH3	TIM5_CH3	PA2
+TIM5	PWM Generation CH4	TIM5_CH4	PA3
+TIM10	Enable_Timer	TIM10_VS_ClockSourceINT	VP_TIM10_VS_ClockSourceINT
+TIM13	Enable_Timer	TIM13_VS_ClockSourceINT	VP_TIM13_VS_ClockSourceINT
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+UART4	Asynchronous	UART4_RX	PC11
+UART4	Asynchronous	UART4_TX	PC10
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_Output	led_cal
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	TIM5_CH1	
+15	PA1	TIM5_CH2	
+16	PA2	TIM5_CH3	
+17	PA3	TIM5_CH4	
+26	PB0	GPIO_Output	led_arm
+27	PB1	GPIO_Output	led_disarm
+28	PB2	GPIO_Output	led_status
+42	PA9	GPIO_EXTI9	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+51	PC10	UART4_TX	
+52	PC11	UART4_RX	
+58	PB6	USART1_TX	
+59	PB7	USART1_RX	
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB8
+I2C1	I2C	I2C1_SDA	PB9
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM5	Internal Clock	TIM5_VS_ClockSourceINT	VP_TIM5_VS_ClockSourceINT
+TIM5	PWM Generation CH1	TIM5_CH1	PA0-WKUP
+TIM5	PWM Generation CH2	TIM5_CH2	PA1
+TIM5	PWM Generation CH3	TIM5_CH3	PA2
+TIM5	PWM Generation CH4	TIM5_CH4	PA3
+TIM10	Enable_Timer	TIM10_VS_ClockSourceINT	VP_TIM10_VS_ClockSourceINT
+TIM13	Enable_Timer	TIM13_VS_ClockSourceINT	VP_TIM13_VS_ClockSourceINT
+TIM14	Enable_Timer	TIM14_VS_ClockSourceINT	VP_TIM14_VS_ClockSourceINT
+UART4	Asynchronous	UART4_RX	PC11
+UART4	Asynchronous	UART4_TX	PC10
+USART1	Asynchronous	USART1_RX	PB7
+USART1	Asynchronous	USART1_TX	PB6
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+2	PC13-ANTI_TAMP	GPIO_Output	led_cal
+5	PH0-OSC_IN	RCC_OSC_IN	
+6	PH1-OSC_OUT	RCC_OSC_OUT	
+14	PA0-WKUP	TIM5_CH1	
+15	PA1	TIM5_CH2	
+16	PA2	TIM5_CH3	
+17	PA3	TIM5_CH4	
+26	PB0	GPIO_Output	led_arm
+27	PB1	GPIO_Output	led_disarm
+28	PB2	GPIO_Output	led_status
+42	PA9	GPIO_EXTI9	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+51	PC10	UART4_TX	
+52	PC11	UART4_RX	
+58	PB6	USART1_TX	
+59	PB7	USART1_RX	
+61	PB8	I2C1_SCL	
+62	PB9	I2C1_SDA	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : FC32-Main
+Project Folder : D:\STM_Projects\FC32-Main
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F4 V1.27.0
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
